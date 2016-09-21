@@ -1,0 +1,179 @@
+    /* Import Google Font */
+    
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+    /*
+-----------------------------
+ .::Custom Tag Standards::.
+-----------------------------
+*/
+    
+    body,
+    html {
+        background: #f7f8f8 url(../Images/GlossyBG.png) fixed repeat;
+    }
+    
+    Body {
+        overflow-x: hidden;
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    a,
+    a:hover,
+    a:focus {
+        color: #337ab7;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    hr {
+        width: 50%;
+        -moz-border-bottom-colors: none;
+        -moz-border-image: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: #CCCCCC;
+        border-style: solid #CCCCCC;
+        border-width: 1px;
+        margin: 0 auto;
+    }
+    
+    .ah-header {
+        border-bottom: 2px solid #cccccc;
+        padding: 0px 9px;
+        max-height: 100px;
+        width: 100%;
+        display: table;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .ah-top-gray-border {
+        border-top: 1px solid #cccccc;
+    }
+    
+    #ah-logo-wrapper,
+    #ah-menubar {
+        display: table-cell;
+    }
+    
+    .ah-logo {
+        display: inline-block;
+        span {
+            display: inline-block !important;
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        }
+        .lbl-title-main-heading {
+            display: inline-block;
+            position: relative;
+            top: 12px;
+        }
+    }
+    
+    #ah-menubar {
+        text-align: right;
+        a:nth-of-type(2) {
+            background-color: #FFA454;
+            color: white;
+            border: 1px solid transparent;
+        }
+    }
+    
+    .ah-section-category {
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+        width: auto;
+        height: auto;
+        .ah-grid {
+            display: table;
+            width: inherit;
+            padding: 0px 9%;
+        }
+        section {
+            background: transparent url(../Images/bg.png) fixed no-repeat center;
+            background-position: right 100%;
+            background-size: contain;
+            height: 100%;
+            width: 100%;
+            .ah-grid-child {
+                display: table-cell;
+                border-left: 1px dashed #cccccc;
+                border-bottom: 1px dashed #cccccc;
+                padding: 9px;
+                text-align: center;
+                width: 25%;
+            }
+            .ah-grid-child:last-child {
+                border-right: 1px dashed #cccccc;
+            }
+        }
+        .ah-form-inline {
+            display: table;
+            width: 75%;
+            margin: 0 auto;
+            .ah-form-group {
+                display: table-cell;
+                padding: 0px 10px;
+            }
+            .ah-input-group {
+                display: table;
+                padding: 0px 10px;
+            }
+            .form-control {
+                display: table-cell;
+            }
+        }
+    }
+    
+    .ah-login-footer {
+        position: relative;
+        margin-top: 40px;
+        bottom: 0;
+        border-top: 2px solid #cccccc;
+        width: 100%;
+        height: auto;
+        color: black;
+        .ah-copyright {
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding: 9px 0px;
+        }
+        .ah-connected {
+            display: block;
+            text-align: center;
+            span {
+                margin: 5px 3px;
+                display: inline-block;
+                a {
+                    color: #CCCCCC;
+                }
+                a:hover {
+                    color: #CCCCCC;
+                }
+            }
+            i {
+                font-size: 24px;
+            }
+        }
+        a {
+            color: aqua;
+        }
+    }
